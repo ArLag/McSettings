@@ -1,0 +1,10 @@
+Package: com.kushy.minecraftsettings
+Name: McSettings
+Depends: mobilesubstrate,ws.hbang.common
+Version: 2.1
+Architecture: iphoneos-arm
+Description: Make your setings minecraft
+Depiction: http://iosjailbreak.xyz/discord.php
+Maintainer: kushy
+Author: kushy
+Section: Tweaks
