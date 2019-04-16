@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+			    <key>cell</key>
+			    <string>PSGroupCell</string>
+			    <key>headerCellClass</key>
+			    <string>HBImageTableCell</string>
+			    <key>height</key>
+			    <integer>100</integer>
+			    <key>icon</key>
+			    <string>logo.png</string>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>twitterkushy</string>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>label</key>
+				<string>@kushdabush</string>
+			    <key>cellClass</key>
+			    <string>HBTwitterCell</string>
+			    <key>label</key>
+			    <string>kushy</string>
+			    <key>user</key>
+			    <string>kushdabush</string>
+
+			</dict>
+
+			<dict>
+			    <key>cellClass</key>
+			    <string>HBPackageTableCell</string>
+			    <key>label</key>
+			    <string>Also checkout Renovare</string>
+			    <key>packageIdentifier</key>
+			    <string>com.kushy.renovare</string>
+			    <key>subtitleText</key>
+			    <string>Cydia redsign</string>
+					<key>action</key>
+					<string>renovare</string>
+			</dict>
+
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Enable/Disable the tweak</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>com.kushy.mcsettings</string>
+				<key>key</key>
+				<string>enabled</string>
+				<key>label</key>
+				<string>Enabled</string>
+				<key>PostNotification</key>
+        <string>com.kushy.mcsettings-prefsreload</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Respring to apply changes</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>label</key>
+				<string>Respring</string>
+				<key>action</key>
+				<string>respring</string>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string>McSetings</string>
+	</dict>
+
+</plist>
