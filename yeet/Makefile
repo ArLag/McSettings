@@ -1,5 +1,5 @@
 include $(THEOS)/makefiles/common.mk
-
+ARCHS = arm64 arm64e
 BUNDLE_NAME = yeetprefs
 yeetprefs_FILES = lolRootListController.m
 yeetprefs_EXTRA_FRAMEWORKS += Cephei
